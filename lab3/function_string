@@ -1,0 +1,8 @@
+def permute(s,emp):
+    if
+    for x in range(len(s)):
+        permute(s[:x] + s[x + 1:], emp + s[x])
+
+s = input()
+emp = " "
+print(permute(s, emp))

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import re
 
 def matchseq(s):
@@ -8,4 +9,16 @@ def matchseq(s):
         print('Match not found')
     
 s = input()
+=======
+import re
+
+def matchseq(s):
+    pattern = 'ab{2,3}'
+    if re.search(pattern, s):
+        print('Match found')
+    else:
+        print('Match not found')
+    
+s = input()
+>>>>>>> bd14d7758789e569cd54ee8b28168336f440fff9
 matchseq(s)
